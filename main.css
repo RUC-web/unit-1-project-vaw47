@@ -1,0 +1,28 @@
+root {
+  font-family: "garamond", baskerville, baskerville old face, hoefler text, times new roman, serif;
+}
+body {
+  font-size: 1.25em;
+  line-height: .5em;
+}
+@@font-face {
+  font-family:"kavivanar", cursive;
+  src: url(https://fonts.googleapis.come/css?family=kavivanar);
+}
+@@font-face {
+  font-family: "spectral sc", serif;
+  src: url(https://fonts.googleapis.com/css?family=spectral+sc);
+}
+
+h2,h3 {
+  font-family: "spectral sc", serif;
+}
+h1 {
+  font-size: 80px;
+}
+h2,h3 {
+  font-size: 60px;
+}
+h1,h2,h3 {
+  line-height: .8em;
+}
