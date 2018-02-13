@@ -5,24 +5,33 @@ body {
   font-size: 1.25em;
   line-height: .5em;
 }
-@@font-face {
-  font-family:"kavivanar", cursive;
-  src: url(https://fonts.googleapis.come/css?family=kavivanar);
+h1 {
+    font-family:"kavivanar", cursive;
 }
-@@font-face {
-  font-family: "spectral sc", serif;
-  src: url(https://fonts.googleapis.com/css?family=spectral+sc);
+h1 {
+  font-size: 80px;
 }
 
 h2,h3 {
   font-family: "spectral sc", serif;
 }
-h1 {
-  font-size: 80px;
-}
+
 h2,h3 {
   font-size: 60px;
 }
 h1,h2,h3 {
   line-height: .8em;
+
+@media only screen and
+(min-width: 600px;) {
+  .text {
+    max-width: 75vw;
+  }
+}
+
+@media only screen and
+(min-width: 900px;) {
+  .text {
+    max-width: 50vw;
+  }
 }
