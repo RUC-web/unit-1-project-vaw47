@@ -1,9 +1,13 @@
 root {
   font-family: "garamond", baskerville, baskerville old face, hoefler text, times new roman, serif;
+
 }
+
 body {
   font-size: 1.25em;
-  line-height: .5em;
+  line-height: 1.35em;
+    background-color: #4C6363;
+
 }
 h1 {
     font-family:"kavivanar", cursive;
@@ -20,7 +24,7 @@ h2,h3 {
   font-size: 60px;
 }
 h1,h2,h3 {
-  line-height: .8em;
+  line-height: 1.3em;
 }
 
 @media only screen and
@@ -38,6 +42,18 @@ h1,h2,h3 {
 }
 
 .home {
-  line-height: 75vw;
-  background-image: url("murray-campbell-29990.jpg");
+  height: 75vw;
+  background-image: url("kiwihug-265638.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.home-text {
+  font-size: 2.5em;
+  line-height: 1em;
+  margin: 0 0 0 0;
+}
+
+.home-header {
+  margin: 0 0 0 0;
+  color: #000000;
 }
