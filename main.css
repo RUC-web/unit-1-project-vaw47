@@ -82,4 +82,9 @@ body {
 
 .home-nav {
   background-color: #803C15;
+  box-shadow: -11px -10px 4px -1px rgba(0,0,0,0.45);
+}
+
+.chapter-pic {
+  max-width: 100%;
 }
