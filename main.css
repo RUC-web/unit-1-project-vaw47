@@ -57,3 +57,29 @@ h1,h2,h3 {
   margin: 0 0 0 0;
   color: #000000;
 }
+ul {
+  list-style-type: none;
+  padding: 1em 1em 1em 1em;
+  width: 100%;
+}
+
+html * {
+
+    box-sizing: border-box;
+}
+
+.home-nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+body {
+    margin: 0;
+}
+
+.home-nav {
+  background-color: #803C15;
+}
