@@ -1,29 +1,24 @@
-root {
-  font-family: "garamond", baskerville, baskerville old face, hoefler text, times new roman, serif;
-
+root: {
+  font-family: "garamond", baskerville, "baskerville old face", "hoefler text", "times new roman", serif;
+  font-size: 1.25em;
+  line-height: 1.40;
 }
 
 .please {
-  font-size: 1.25em;
-  line-height: 1.35;
     background-color: #F6F6F6;
     color: #000000;
-
 }
+
 h1 {
     font-family:"kavivanar", cursive;
-}
-h1 {
-  font-size: 80px;
+      font-size: 80px;
 }
 
 h2,h3 {
   font-family: "spectral sc", serif;
-}
-
-h2,h3 {
   font-size: 60px;
 }
+
 h1,h2,h3 {
   line-height: 1.3;
 }
@@ -99,13 +94,10 @@ body {
 }
 
 .chapter-pic {
-  max-width: 100%;
-}
-
-.chapter-pic {
   float: right;
   height: 50%;
   Width: 50%;
+  max-width: 100%;
 }
 a:link, a:visited {
   color:#FFFFFF;
